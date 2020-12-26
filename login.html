@@ -4,7 +4,13 @@
 <head>
     <meta charset="UTF-8">
     <title>로그인페이지</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Do+Hyeon&display=swap" rel="stylesheet">
+
     <style>
+        *{
+            font-family: 'Do Hyeon', sans-serif;
+        }
         .mytitle {
 
             width: 300px;
@@ -16,12 +22,22 @@
             background-image: url('https://www.ancient-origins.net/sites/default/files/field/image/Agesilaus-II-cover.jpg');
             background-size: cover;
             background-position: center;
+            
             border-radius: 10px;
             padding-top: 30px;
         }
         .wrap{
             width: 300px;
             margin:auto;
+        }
+
+        .mybtn{
+            color: white;
+            width: 300px;
+            height: 50px;
+            background-color: brown;
+            padding: 15px;
+            border-radius: 10px;
         }
     </style>
 </head>
@@ -34,7 +50,7 @@
         </div>
         <p>ID: <input type="text" /></p>
         <p>PW: <input type="text" /></p>
-        <button>로그인하기</button>
+        <button class = "mybtn">로그인하기</button>
     </div>
 </body>
 
